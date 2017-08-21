@@ -81,7 +81,7 @@ public Action TimerUpdateVoiceStamina(Handle timer, any userid)
 			char name[64];
 			GetClientName(client, name, sizeof(name));
 			BaseComm_SetClientMute(client, true); // <- mute the client on the server only
-			PrintToChat(client, " \x01\x04[DREAM] \x07%t !", "Mute", cvMute.FloatValue); // <- print translation message to the client
+			PrintCenterText(client, "%t !", "Mute", cvMute.FloatValue); // <- print translation message to the client
 			PrintToChatAll(" \x01\x04[DREAM] Auto-Mute %s !", name);
 			CreateTimer(cvMute.FloatValue, TimerUnmute, GetClientUserId(client)); // <- timer for the unmute timer
 		}
@@ -118,7 +118,7 @@ public Action TimerUnmute(Handle timer, any userid)
 	*/
 	int client = GetClientOfUserId(userid); // <- Get the client number in game
 	BaseComm_SetClientMute(client, false); // <- unmute the client on the server only
-	PrintToChat(client, " \x01\x04[DREAM] \x06%t !", "Unmute"); // <- print translation message to the client
+	PrintCenterText(client, "%t !", "Unmute"); // <- print translation message to the client
 	gVoiceStamina[client] = cvStamina.IntValue; // <- reset the stamina
 	return Plugin_Handled;
 }
