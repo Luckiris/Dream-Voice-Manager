@@ -5,6 +5,10 @@ Description
 -------------
 Mute people after speaking for a few seconds
 
+Requirments
+-------------
+https://forums.alliedmods.net/showthread.php?t=245384
+
 Cvars
 -------------
 > - sm_dvoice_stamina "10" (Default: "10" - Number of seconds a client can talk before being muted)
