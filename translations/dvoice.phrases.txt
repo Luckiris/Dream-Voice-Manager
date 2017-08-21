@@ -1,0 +1,17 @@
+"Phrases"
+{
+	"Mute"
+	{
+		"#format"		"{1:f}"
+		"en"			"You have been muted for {1} seconds"
+		"fr"			"Vous avez été muté pour {1} secondes"
+		"de"			"FILL HERE"
+	}
+	
+	"Unmute"
+	{
+		"en"			"You have been unmuted"
+		"fr"			"Vous avez été démuté"
+		"de"			"FILL HERE"
+	}
+}
