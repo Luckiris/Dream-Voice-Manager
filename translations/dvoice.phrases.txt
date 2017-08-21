@@ -3,15 +3,15 @@
 	"Mute"
 	{
 		"#format"		"{1:f}"
-		"en"			"You have been muted for {1} seconds"
-		"fr"			"Vous avez été muté pour {1} secondes"
-		"de"			"FILL HERE"
+		"en"			"You have talked too long and have been automatically muted for {1} seconds!"
+		"fr"			"Vous avez parlé trop longtemps et vous avez été muté automatiquement pour {1] seconds!"
+		"de"			"Du hast zu lange geredet und wurdest automatisch für {1} Sekunden gemuted!"
 	}
 	
 	"Unmute"
 	{
-		"en"			"You have been unmuted"
-		"fr"			"Vous avez été démuté"
-		"de"			"FILL HERE"
+		"en"			"You have been automatically unmuted!"
+		"fr"			"Vous avez été démuté automatiquement!"
+		"de"			"Du wurdest automatisch entmuted!"
 	}
 }
