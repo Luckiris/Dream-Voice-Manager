@@ -5,7 +5,7 @@ Description
 -------------
 Mute people after speaking for a few seconds
 
-Requirments
+Requirements
 -------------
 https://forums.alliedmods.net/showthread.php?t=245384
 
